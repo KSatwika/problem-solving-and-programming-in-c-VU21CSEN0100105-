@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i=0;
+   int a,n;
+   printf("enter the value of a");
+   scanf("%d",&a);
+ do  
+ {
+     printf("\n%d",a*i);
+     i++;
+ }
+while(i<11);
+
+
+  
+     
+    
+ 
+
+    return 0;
+}
