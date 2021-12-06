@@ -1,0 +1,19 @@
+int main()
+{
+    int i=0;
+   int a=4,n;
+   printf("enter the value of a");
+   scanf("%d",&a);
+   printf("enter the value of n");
+   scanf("%d",&n);
+while(i<n)
+
+    {
+        printf("\n%d",a*i);
+    ++i;
+    } 
+    
+ 
+
+    return 0;
+}
