@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    int x,y,z,*a,*b,*c,temp;
+    // Write C code here
+    printf("enterx");
+    scanf("%d",&x);
+     printf("entery");
+     scanf("%d",&y);
+     printf("enterz");
+     scanf("%d",&z);
+     printf("before swapping x,y,z are");
+     printf("\n%d",x);
+      printf("\n%d",y);
+     printf("\n%d",z);
+       a = &x;
+   b = &y;
+   c=&z;
+   temp = *a;
+   *a= *b;
+   *b=*c;
+   
+   *c= temp;
+        printf("\nafter swapping x,y,z are");
+   printf("\n%d",x);
+   printf("\n%d",y);
+    printf("\n%d",z);
+   
+    return 0;
+}
