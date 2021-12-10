@@ -1,0 +1,28 @@
+int main() {
+    int x,y,z,*a,*b,*c,temp;
+    // Write C code here
+    printf("enterx");
+    scanf("%d",&x);
+     printf("entery");
+     scanf("%d",&y);
+    
+     printf("before swapping x,y are");
+     printf("\n%d",x);
+      printf("\n%d",y);
+     
+       a = &x;
+   b = &y;
+ 
+   temp = *a;
+   *a= *b;
+
+   
+   *b= temp;
+        printf("\nafter swapping x,y are");
+   printf("\n%d",x);
+   printf("\n%d",y);
+   
+    return 0;
+}
+
+
