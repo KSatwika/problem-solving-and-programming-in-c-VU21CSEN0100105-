@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int price,discount_percentage;
+float discount, payment;
+printf("enter discount");
+scanf("%d",&discount_percentage);
+printf("enter total price");
+scanf("%d",&price);
+discount=(discount_percentage*price)/100;
+payment=price-discount;
+printf("the amount we need to pay is %f",payment);
+return 0;
+}
+output
+enter discount50
+enter total price100
+the amount we need to pay is 50.000000
