@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+  int a,b;
+  printf("enter a");
+  scanf("%d",&b);
+ printf("enter b");
+  scanf("%d",&a); 
+   printf("after swaping ");
+   printf("%d %d",a,b);
+    return 0;
+}
+output
+enter a1
+enter b2
+after swaping 
+2 1
