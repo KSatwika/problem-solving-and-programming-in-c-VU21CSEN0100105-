@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+  int num, r = 0, rem, o;
+    printf("Enter your input");
+    scanf("%d", &num);
+    o= num;
+
+        while (num != 0) 
+        {
+        rem= num % 10;
+        r = r * 10 + rem;
+        num /= 10;
+    }
+
+    
+    if (o == r)
+        printf("number is a palindrome.");
+    else
+        printf("number is not a palindrome.");
+
+    return 0;
+}
+output
+Enter your input38083
+number is a palindrome.
