@@ -1,0 +1,55 @@
+#include<stdio.h>  
+void add ();
+void sub ();
+void mul ();
+void div ();
+void main ()
+{
+   
+    printf("\nGoing to calculate the sum of two numbers:"); 
+    add ();
+    sub ();
+    mul();
+    div();
+}
+
+void add()  
+{  
+   float a,b,c,d,e,f;
+   printf("enter value of a");
+   scanf("%f",&a);
+   printf("enter value of b");
+   scanf("%f",&b);
+   c=a+b;
+   printf("\naddition of two numbers is %f",c);
+}  
+void sub()  
+{  
+   float a,b,c,d,e,f;
+   printf("enter value of a");
+   scanf("%f",&a);
+   printf("enter value of b");
+   scanf("%f",&b);
+   c=a-b;
+   printf("\nsubtraction of two numbers is %f",c);
+}  
+void mul()  
+{  
+   float a,b,c,d,e,f;
+   printf("enter value of a");
+   scanf("%f",&a);
+   printf("enter value of b");
+   scanf("%f",&b);
+   c=a*b;
+   printf("\nmultiplication of two numbers is %f",c);
+}  
+void div()  
+{  
+   float a,b,c,d,e,f;
+   printf("enter value of a");
+   scanf("%f",&a);
+   printf("enter value of b");
+   scanf("%f",&b);
+   c=a/b;
+   printf("\ndivision of two numbers is %f",c);
+}  
