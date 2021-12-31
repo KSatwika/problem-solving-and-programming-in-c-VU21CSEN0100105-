@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void power();
+void main()
+{
+    int b,e;
+    printf("enter the base");
+    scanf("%d",&b);
+    printf("enter the exp");
+    scanf("%d",&e);
+    power(b,e);
+}
+void power(int b,int e)
+{
+    int result;
+    result=pow(b,e);
+    	printf("%d to the power of %d is=%d",b,e,result);
+}
+output
+enter the base3
+enter the exp2
+3 to the power of 2 is=9
