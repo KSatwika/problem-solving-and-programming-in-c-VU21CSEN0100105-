@@ -1,0 +1,26 @@
+include <stdio.h>
+int sub(int x,int y)
+{
+int z;
+z=x-y;
+    
+}
+float satwi(int p,int q)
+{
+    float i;
+    i=p/q;
+    
+}
+    int main()
+    {
+        int a,b;
+        float c;
+        printf("enter the values");
+        scanf("%d%d",&a,&b);
+        c=sub(a,b);
+c=satwi(a,b);
+        printf("\n%.1f",c);
+    }
+output
+enter the values50 10
+5.0
