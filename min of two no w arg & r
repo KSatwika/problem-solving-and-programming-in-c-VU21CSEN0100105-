@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int min(int a,int b)
+{
+    int i;
+    
+        if(a<b)
+        {
+            printf("\n%d",a);
+        }
+        else
+        {
+            printf("\n%d",b);
+        }
+    }
+    
+
+
+
+int main()
+{
+    int p,q,r;
+    printf("enter p");
+    scanf("\n%d",&p);
+    printf("enter q");
+    scanf("\n%d",&q);
+    r=min(p,q);
+    
+}
