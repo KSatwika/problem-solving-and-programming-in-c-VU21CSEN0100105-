@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int power()
+{
+    int i,j,k;
+    printf("enter the values");
+    scanf("%d%d",&i,&j);
+    k=pow(i,j);
+    return k;
+}
+      
+    
+
+
+
+int main()
+{
+    int p,q,r;
+    r=power(p,q);
+    printf("%d",r);
+    
+}
