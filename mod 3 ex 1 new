@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int even(int a,int b)
+{
+    int i;
+    for(i=a;i<b;i++)
+    {
+        if(a%2==0)
+        {
+            printf("\n%d",i++);
+        }
+        else
+        {
+            printf("\n%d",++i);
+        }
+    }
+    
+}
+int odd(int a,int b)
+{
+    int i;
+    for(i=a;i<b;i++)
+    {
+        if(a%2==0)
+        {
+            printf("\n%d",++i);
+        }
+        else
+        {
+            printf("\n%d",i++);
+        }
+    }
+}
+
+int main()
+{
+    int p,q,r,s;
+    printf("enter p");
+    scanf("\n%d",&p);
+    printf("enter q");
+    scanf("\n%d",&q);
+    r=even(p,q);
+    s=odd(p,q);
+}
