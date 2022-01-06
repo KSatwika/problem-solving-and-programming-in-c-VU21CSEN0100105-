@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int power(int b,int e)
+{
+int c;
+c=pow(b,e)
+return c;
+}
+int main()
+{
+    int p,q,r;
+    printf("enter base");
+    scanf("\n%d",&p);
+    printf("enter expo");
+    scanf("\n%d",&q);
+    r=power(p,q);
+    printf("%d",r);
+    
+}
