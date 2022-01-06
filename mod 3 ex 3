@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int power(int b,int e)
+{
+    if(b>e)
+{
+    printf("%d",b);
+}
+else
+{
+    printf("%d",e);
+}
+}
+int main()
+{
+    int p,q,r;
+    printf("enter p");
+    scanf("\n%d",&p);
+    printf("enter q");
+    scanf("\n%d",&q);
+    r=power(p,q);
+    
+}
