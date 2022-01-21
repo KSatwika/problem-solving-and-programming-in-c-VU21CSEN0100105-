@@ -1,0 +1,27 @@
+#include <stdio.h>
+int product(int a, int b)
+{
+    if(a<b)
+    {
+        return product(b,a);
+    }
+    else if(b!=0)
+    {
+        return (a+product(a,b-1));
+    }
+    else
+    {
+     return (0);   
+    }
+}
+int main()
+{
+    int i,j,k;
+    printf("enter the values");
+    scanf("%d %d",&i,&j);
+    k=product(i,j);
+    printf("%d",k);
+}
+output
+enter the values4 3
+12
