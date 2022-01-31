@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int a[10],n,i,min;  //Functional Requirements
+    printf("Enter the range");   //6 elements
+    scanf("%d",&n);  
+    printf("Enter your Elements:");
+    for(i=0;i<n;i++)        //2 4 6  1 7 9
+    {
+        scanf("%d",&a[i]);      
+}
+//Find Max no in array
+min=100;
+for(i=0;i<n;i++)
+{
+    if(a[i]<min)
+    {
+    min=a[i];
+}
+}
+printf("min value is :%d",min);
+
+return 0;
+}
