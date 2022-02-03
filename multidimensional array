@@ -5,7 +5,7 @@ int main()
 {
     int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
     int n,i,j;
-    printf("\nelements in an array are");
+    printf("elements in an array are\n");
     for(i=0;i<3;i++) //checking row
     {
         for(j=0;j<3;j++)//checking column
@@ -16,6 +16,7 @@ int main()
     }
 }
 output
-elements in an array are1       2       3
+elements in an array are
+1       2       3
 4       5       6
 7       8       9
