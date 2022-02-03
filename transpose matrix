@@ -1,0 +1,41 @@
+//Transpose of a Matrix
+
+#include<stdio.h>
+int main()
+{
+    int a[10][10],b[10][10],i,j,row,col;
+    printf("\n Enter row and col value");
+    scanf("%d%d",&row,&col);  //3 ,3
+    printf("Enter the elements into array");
+    for(i=0;i<row;i++)   //Go for each row
+    {
+        for(j=0;j<col;j++)  // Go for each col
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    
+//Transpose Matrix
+for(i=0;i<row;i++)   //checking for each row
+    {
+        for(j=0;j<col;j++)  // checking for each col
+        {
+            b[j][i]=a[i][j]; //Logic starts here
+        }
+    }
+printf("The Transpose Matrix is:\n");
+for(i=0;i<row;i++)   //checking for each row
+    {
+        for(j=0;j<col;j++)  // checking for each col
+        {
+            printf("%d ",b[i][j]);
+        }
+        printf("\n");
+    }    
+    }
+output
+ Enter row and col value 2 2
+Enter the elements into array1 2 3 4
+The Transpose Matrix is:
+1 3 
+2 4 
