@@ -1,4 +1,4 @@
-//multidimensional array
+//multidimensional array static
 #include <stdio.h>
 
 int main()
