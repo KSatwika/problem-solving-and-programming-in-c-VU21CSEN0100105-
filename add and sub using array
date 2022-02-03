@@ -1,0 +1,54 @@
+//add and sub of a Matrix
+
+#include<stdio.h>
+int main()
+{
+    int a[10][10],b[10][10],c[10][10],i,j,row,col;
+    printf("\n Enter row and col value");
+    scanf("%d%d",&row,&col);  //3 ,3
+    printf("Enter the elements of a");
+    for(i=0;i<row;i++)   //Go for each row
+    {
+        for(j=0;j<col;j++)  // Go for each col
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    
+ printf("Enter the elements of b");
+    for(i=0;i<row;i++)   //Go for each row
+    {
+        for(j=0;j<col;j++)  // Go for each col
+        {
+            scanf("%d",&b[i][j]);
+        }
+    }
+printf("The add Matrix is:\n");
+for(i=0;i<row;i++)   //checking for each row
+    {
+        for(j=0;j<col;j++)  // checking for each col
+        {
+            c[i][j]=a[i][j]+b[i][j];
+            printf("%d ",c[i][j]);
+        }
+        printf("\n");
+    }    
+    printf("The sub Matrix is:\n");
+for(i=0;i<row;i++)   //checking for each row
+    {
+        for(j=0;j<col;j++)  // checking for each col
+        {
+            c[i][j]=a[i][j]-b[i][j];
+            printf("%d ",c[i][j]);
+        }
+        printf("\n");
+    }    
+    }
+output
+Enter the elements of b2 2 2 2
+The add Matrix is:
+3 3 
+3 3 
+The sub Matrix is:
+-1 -1 
+-1 -1 
