@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+   char a[10],b[10];
+   
+   printf("Enter the string of a"); 
+   gets(a);
+   printf("Enter the string of b"); 
+   gets(b);
+   puts(a);
+   puts(b);
+  printf("\n");
+  strcat(a,b);
+   printf("a value is");
+   puts(a);
+    printf("\nb value is");
+   puts(b);
+ 
+   
+   
+  return 0;
+}
