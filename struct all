@@ -1,0 +1,48 @@
+ #include<stdio.h>
+#include<string.h>
+int main()
+{
+struct car
+{
+    char name[30];
+    char company[30];
+   double price;
+    int year;
+    char model[30];
+};
+struct car c1,c2,c3;
+printf("Enter the car name:");
+scanf("%s",&c1.name);
+printf("Enter the company name:");
+scanf("%s",&c1.company);
+printf("Enter the price:");
+scanf("%l",&c1.price);
+printf("Enter year of manifacturing:");
+scanf("%d",&c1.year);
+printf("Enter car model");
+scanf("%s",&c1.model);
+printf("\n%s",c1.name);
+printf("\n%s",c1.company);
+printf("\n%lf",c1.price);
+printf("\n%d",c1.year);
+printf("\n%s",c1.model);
+
+//2nd approach
+c2.name="Swift";
+c2.company="Maruti";
+c2.price=50000.60;
+c2.year=2021;
+c2.model="RED03";
+printf("\n%s",c2.name);
+printf("\n%s",c2.company);
+printf("\n%lf",c2.price);
+printf("\n%d",c2.year);
+printf("\n%s",c2.model);
+//3rd approach
+struct car c3={"Fortuner","TOYATA",600000,2014,"BLACK09"};
+printf("\nThe name of the car:%s",c3.name);
+printf("\nThe name of the company:%s",c3.company);
+printf("\nThe price of the car:%lf",c3.price);
+printf("\nYear of Manifacture:%d",c3.year);
+printf("\nModel no:%s",c3.model);
+}
