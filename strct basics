@@ -1,0 +1,21 @@
+struct book
+{
+    char name[20];
+    float price;
+    int pages;
+    };
+    struct students
+    {
+        char name;
+       int  roll no;
+       int age;
+       float marks;
+    };
+    struct car
+    {
+     char name;
+      char company;
+      float price;
+     int year of manfacture;
+     char model;
+    }
