@@ -1,0 +1,19 @@
+#include<stdio.h>
+ int main( ){
+  FILE *fp;
+  char name[15];
+  int roll_no;
+  int section;
+  int aadhar;
+  fp=fopen("member.txt","w");  
+  printf("enter ur name");
+  scanf("%s",name);
+  printf("enter roll_no");
+  scanf("%d",&roll_no);
+  printf("enter section");
+  scanf("%d",&section);
+  printf("enter aadhar ");
+  scanf("%d",&aadhar );
+  fprintf(fp,"%s,%d,%d,%d",name,roll_no,section,aadhar);
+  fclose(fp);
+  }
